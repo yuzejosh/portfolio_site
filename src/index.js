@@ -8,6 +8,7 @@ import './index.css';
 import App from "./App";
 import cnApp from "./routes/cnApp";
 import ErrorPage from "./error-page";
+import hirePage from "./routes/hire"
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
   {
     path: "lang=cn",
     element: cnApp(),
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "hire-me",
+    element: hirePage(),
     errorElement: <ErrorPage />,
   }
 ])
