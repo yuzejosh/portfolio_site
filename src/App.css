@@ -1,0 +1,110 @@
+.Logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  margin-top: 400px
+}
+
+.App {
+  background-color:aliceblue;
+}
+
+.aboutlogo {
+  height: 60px;
+  width: 60px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.mongologo {
+  height: 60px;
+  width: 215px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.separator {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px
+}
+
+.langLink {
+  color: black;
+}​
+
+.projects{
+  margin-left: 10px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.projTitle {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.intro {
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.intro2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 500px;
+  text-align: center;
+}
+
+.buffer {
+  padding-top: 100px
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.projectsContainer {
+  height: 800px;
+  background-color:aliceblue;
+}
+
+.description {
+  text-align: center;
+}
+
+.hackathon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 30px;
+}
+
+.FirstHackathon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.show {
+  opacity: 1;
+}
+
+.footer {
+  padding-right: 10px;
+  text-align: right;
+}
